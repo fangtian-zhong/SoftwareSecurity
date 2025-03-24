@@ -35,7 +35,7 @@ ACM lib keywords:
         "fillQuickSearch": "false",
         "target": "advanced",
         "title": title_keyword,
-        "Abstract": abstact_keyword,
+        "Abstract": abstract_keyword,
         "AfterYear": "2004",
         "BeforeYear": "2024",
         "ContentItemType": "research-article",
@@ -43,7 +43,7 @@ ACM lib keywords:
         "startPage": "0"
     }
 title_keyword = "vulnerability bug"
-abstact_keyword = "vulnerability discovery,machine learning,bug detection"
+abstract_keyword = "vulnerability discovery,machine learning,bug detection"
 Springer keywords:
 keyword = 'vulnerability,bug,machine learning'
 
