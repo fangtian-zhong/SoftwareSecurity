@@ -230,27 +230,3 @@
 | Jinn: synthesizing dynamic bug detectors for foreign language interfaces | 2010         | **Partially Public** | **None**(does not explicitly mention that its code is open-source.) | dynamic analysis |
 | Compact abstract graphs for detecting code vulnerability with GNN models | 2022         | **Private**          | **None**(does not explicitly mention that its code is open-source.) | machine learning |
 | Scaffle: Bug localization on millions of files               | 2020         | **Private**          | **None**(does not explicitly mention that its code is open-source.) | machine learning |
-
-
-
-## Added Paper
-
-
-
-| Paper Name                                                   | Publish Year | Target Bug                                    | Code Link | Analysis Approach |
-| ------------------------------------------------------------ | ------------ | --------------------------------------------- | --------- | ----------------- |
-| Detecting and defending against inter-app permission leaks in android apps | 2017         | Resource Management Bugs: permission leaks    | -         | -                 |
-| ScaleCheck: A Single-Machine Approach for Discovering Scalability Bugs in Large Distributed Systems | 2019         | Performance Bugs: scale-dependent             | -         | -                 |
-| OS-level hang detection in complex software systems          | 2011         | Performance Bugs: software hangs              | -         | -                 |
-| Automatic Energy-Hotspot Detection and Elimination in Real-Time Deeply Embedded Systems | 2021         | Performance Bugs: execution hotspots          | -         | -                 |
-| HotCFuzz: Enhancing Vulnerability Detection through Fuzzing and Hotspot Code Coverage Analysis | 2024         | Performance Bugs: execution hotspots          | -         | -                 |
-| EarlyDLDetect: An Early Root-Cause Locator of Dangling Pointers and Memory Leaks | 2024         | Memory Safety Bugs: dangling pointers         | -         | -                 |
-| rCanary: Detecting Memory Leaks Across Semi-automated Memory Management Boundary in Rust | 2024         | Memory Safety Bugs: memory leaks              | -         | -                 |
-| Precise Static Happens-Before Analysis for Detecting UAF Order Violations in Android | 2019         | Concurrency Bugs: order violations            | -         | -                 |
-| Automated Detection of Software Performance Antipatterns in Java-Based Applications | 2023         | Concurrency Bugs: order violations            | -         | -                 |
-| Scalable Race Detection for Android Applications             | 2015         | Concurrency Bugs: data race                   | -         | -                 |
-| Static Detection of Access Control Vulnerabilities in Web Applications | 2011         | Missing-check Bugs: access control violations | -         | -                 |
-| Rust-twins: Automatic Rust Compiler Testing through Program Mutation and Dual Macros Generation | 2024         | Logic Bugs: Compilation errors                | -         | -                 |
-| APICAD: Augmenting API Misuse Detection through Specifications from Code and Documents | 2023         | Logic Bugs: API misuse                        | -         | -                 |
-
-
