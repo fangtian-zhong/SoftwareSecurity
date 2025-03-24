@@ -47,7 +47,7 @@ def search_springer(keyword, store_path, file):
     """
 ```
 
-Additionally, you can crawl papers from google scholar:
+Additionally, you can crawl papers from Google Scholar by calling these functions:
 
 `````python
 def search_papers(base_url, keyword):
