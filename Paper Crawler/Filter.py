@@ -9,7 +9,6 @@ class Springer_filter:
     """
     In this class, I define some method to filter the articles searched from Springer.
     """
-
     def __init__(self, article_path, article_filter_to, csv_path, wrong_folder_name):
         self.article_path = article_path
         self.article_filter_to = article_filter_to
