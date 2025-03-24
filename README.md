@@ -47,6 +47,32 @@ def search_springer(keyword, store_path, file):
     """
 ```
 
+Additionally, you can crawl papers from google scholar:
+
+`````python
+def search_papers(base_url, keyword):
+    """
+    Retrieve paper links by performing a search on the Google Scholar using the given keyword.
+
+    :param base_url: "https://scholar.google.com/scholar?q="
+    :param keyword: Keyword(s) used to search for relevant papers.
+    :return: A list of URLs pointing to the search results or paper entries.
+    """
+
+
+def store_links(store_path, url_list):
+    """
+    Save a list of paper URLs to a CSV file for manual download.
+
+    :param store_path: The path where the CSV file will be saved.
+    :param url_list: A list of paper URLs retrieved from the search_papers function.
+    :return: None
+    """
+
+`````
+
+
+
 ------
 
 ### Downloading PDF Files
@@ -86,7 +112,7 @@ def download_pdf(pdf_url, store_path, seq_num, file):
 ```
 
 
-To download articles from IEEE, you should do that manually.
+To download articles from IEEE and google scholar, you should do that manually.
 
 
 ------
