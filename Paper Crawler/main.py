@@ -1,13 +1,13 @@
 """
 Author: Zhuoyun Qian
-Email: qianzhuoyun@nenu.edu.cn
+Email: zhuoyunqian19@gmail.com
 Version: 1.0
 Situation:
 1. Springer: download articles from Springer is easy, this project can do it successfully
-2. IEEE: It has anti-crawler machanism, the project can only get the target download url, cannot dowload automatically
-3. Acm: It has 'IP block' machanism! each IP can just download about 30 articles, and It is slower than do it manually.
-4. Sci-Hub: articles in this library can be downloaded for free, but this database incomplete.
-What I am doing:
+2. IEEE: It has anti-crawler mechanism, the project can only get the target download url, cannot download automatically
+3. Acm: It has 'IP block' mechanism! each IP can just download about 30 articles, and It is slower than doing it manually.
+
+
 It is used to search articles from acm, ieee and springer libraries by keywords.
 After getting the base information of each article such as url, abstract and so on, download them as pdf format.
 The main.py is used for call other functions from other python file and download the target articles.
@@ -48,32 +48,25 @@ Springer keywords:
 keyword = 'vulnerability,bug,machine learning'
 
 From these keywords and params, you can find that I search the articles published from 2004 to 2024,
-and the number of their pages can't lower than 7.
+and the number of their pages can't be lower than 7.
 
 """
 import os
 import Filter
 import dealfile
-acm_store_path = "D:\\gitspace\\mysurvey\\articles\\"
-ieee_store_path = "D:\\gitspace\\mysurvey\\articles\\"
-springer_store_path = "D:\\gitspace\\mysurvey\\articles\\"
-springer_pdf_path = "D:\\gitspace\\mysurvey\\pdf\\springer\\"
-ieee_pdf_path = 'D:\\gitspace\\mysurvey\\pdf\\Ieee\\'
-acm_pdf_path = "D:\\gitspace\\mysurvey\\pdf\\acm\\"
-keyword = "vulnerability,bug,machine learning"
+acm_store_path = "path"
+ieee_store_path = "path"
+springer_store_path = "path"
+springer_pdf_path = "path"
+ieee_pdf_path = "path"
+acm_pdf_path = "path"
 
 # there you can write your code to download the article
 
-keywords_IR = [' p code', 'assembly','microsoft intermediate language', 'msil', 'llvm', 'gimple', 'jimple', 'smali', ' spir-v', 'mlir' ]
-keywords_IR_new = ['smali file', 'smali code', 'vliw architecture', 'intermediate representation', 'microsoft intermediate language']
-keywords_bytecode = ['bytecode', 'byte code']
-keywords_binary = ['binary']
-keywords_network = ['network']
-filtering = Filter.deal_extract_text(
-                article_path="D:\\gitspace\mysurvey\\filterarticles\\source_code\\Others\\",
-                article_filter_to="D:\\gitspace\mysurvey\\filterarticles\\source_code\\Others\\",
-                wrong_folder_name="wrong_pdf"
-)
+# define the list of the keywords
+keywords = ['keyword_1', 'keyword_2', 'keyword_3']
 
+# then develop code for searching, filtering or categorizing papers.
 
-filtering.filter_article(keywords_IR_new,'IR')
+if __name__ == '__main__':
+    print("Write your code")

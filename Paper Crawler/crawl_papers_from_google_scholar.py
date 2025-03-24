@@ -41,7 +41,7 @@ def store_links(store_path, url_list):
     except Exception as e:
         print("Failed to open", store_path, "Error:", e)
 
-
+# You can change the store path and keyword to what you want
 store_path = "Javascript.csv"
 google_scholar = "https://scholar.google.com/scholar?q=bug+detection,"
 href_list = search_papers(google_scholar, "+Javascript&start=")
