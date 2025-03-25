@@ -112,7 +112,7 @@ def download_pdf(pdf_url, store_path, seq_num, file):
 ```
 
 
-To download articles from IEEE and google scholar, you should do that manually.
+To download articles from IEEE and Google Scholar, you should do that manually.
 
 
 ------
