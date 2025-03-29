@@ -168,3 +168,11 @@ class Springer_filter:
 ```
 
 Similar filtering classes and methods are provided for IEEE and ACM papers in the same file.
+
+### If you use our code, please cite the following paper by
+@article{qian2025software,
+  title={Software Vulnerability Analysis Across Programming Language and Program Representation Landscapes: A Survey},
+  author={Qian, Zhuoyun and Zhong, Fangtian and Hu, Qin and Jiang, Yili and Huang, Jiaqi and Ren, Mengfei and Yu, Jiguo},
+  journal={arXiv preprint arXiv:2503.20244},
+  year={2025}
+}
